@@ -22,3 +22,11 @@ def avg(numbers: list) -> float:
 
 
 print(avg([1, 2, 4]))
+
+
+def main():
+    print("Hello World!")
+
+
+if __name__ == "__main__":
+    main()
