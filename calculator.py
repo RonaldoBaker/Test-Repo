@@ -12,3 +12,13 @@ def mult(x, y):
 
 def div(x, y):
     return x / y
+
+
+def avg(numbers: list) -> float:
+    total = 0
+    for i in numbers:
+        total += i
+    return total/len(numbers)
+
+
+print(avg([1, 2, 4]))
